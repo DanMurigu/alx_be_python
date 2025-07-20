@@ -1,15 +1,15 @@
-weather_today = ["sunny", "rainy", "cold"] # Available weather suggestions
+weather = ["sunny", "rainy", "cold"] # Available weather suggestions
 
-weather_today = input("What's the weather like today? (sunny/rainy/cold): ").lower() #prompts the user for their input on the current weather condition
+weather = input("What's the weather like today? (sunny/rainy/cold): ").lower() #prompts the user for their input on the current weather condition
 
 #match user input with the variables and give recommendations
-if weather_today == "sunny":
+if weather == "sunny":
  print("Wear a t-shirt and sunglasses.")
 
-elif weather_today == "rainy":
+elif weather == "rainy":
  print("Don't forget your umbrella and a raincoat.")
 
-elif weather_today == "cold":
+elif weather == "cold":
  print("Make sure to wear a warm coat and a scarf.")
 
 else: 
