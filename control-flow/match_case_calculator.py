@@ -3,7 +3,7 @@ num2 = "num2"
 operation = "(+, -, *, /)"
 
 num1 = int(input("Enter the first number: " ))
-num2 = int(input("Enter the second number: gi" ))
+num2 = int(input("Enter the second number: " ))
 operation = input("Choose the operation (+, -, *, /): ")
 
 match operation:
