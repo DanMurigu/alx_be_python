@@ -1,8 +1,8 @@
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 operation = input("Choose the operation: (add, subtract, multiply, divide): ").lower()
-
-def perform_operation(num1, num2, operation):
+#above are the user inputs
+def perform_operation(num1, num2, operation): #the function that performs the arithmetic operations
     operation = operation.strip().lower()
     if operation == "add":
         return num1 + num2
@@ -16,5 +16,5 @@ def perform_operation(num1, num2, operation):
         return num1 / num2
     else:
         return f"Error: Unsupported operation {operation}"
-result = perform_operation(num1,num2, operation)
-print(f"Result: {result}")
+result = perform_operation(num1,num2, operation) #included this to see if the function is working as expected
+print(f"Result: {result}") #gives the output of the function
